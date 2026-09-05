@@ -28,7 +28,7 @@ def run_agent(question: str):
     step = 0 
     useful_step = 0 
  
-    while step < 10 * MAX_STEPS: 
+    while step < 10*MAX_STEPS: 
  
         print(f"\n------------- we are at step {step + 1} -------------\n") 
  
@@ -61,7 +61,7 @@ Return ONLY valid JSON.
         else:
 
             prompt = f""" 
-You are a forecasting agent. 
+You are a forecasting agent. FETCH MOST RECENT DATA ONLY!! 
  
 Question: 
 {question} 
