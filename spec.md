@@ -2,7 +2,7 @@
 
 ## System Objective
 
-The goal of the system is to answer forecasting questions by combining an LLM with external web search. The agent gathers recent information, reasons over the retrieved evidence, and returns a final probabilistic forecast.
+The goal of the system is to answer forecasting questions by combining an LLM with external web search. The agent gathers recent information, reasons over the retrieved evidence and returns a final probabilistic forecast.
 
 ## Workflow
 
