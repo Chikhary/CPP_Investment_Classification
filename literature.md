@@ -6,4 +6,4 @@ Lewis et al. shows that relying only on knowledge stored inside a language model
 
 ## 2. [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) — Yao et al. (2023)
 
-ReAct shows that an LLM can alternate between reasoning and taking actions with external tools instead of producing an answer immediately. The authors found that combining reasoning with external information gathering can improve performance on knowledge-based tasks. This influenced the structure of my agent: at each step, Gemini chooses between a `search` action and a final `forecast` action, while previous observations are kept in the history.
+ReAct shows that an LLM can alternate between reasoning and taking actions with external tools instead of producing an answer immediately.The authors found that combining reasoning with external information gathering can improve performance on knowledge-based tasks. This influenced the structure of my agent: at each step, Gemini chooses between a `search` action and a final `forecast` action, while previous observations are kept in the history.

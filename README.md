@@ -23,7 +23,7 @@ CPP_Investment_Classification/
 Here are the roles of each file:
 
 * `main.py` — Entry point of the project that receives the forecasting question and launches the agent.
-* `agent.py` — Contains the main forecasting agent loop, decision-making logic, and final forecast generation.
+* `agent.py` — Contains the main forecasting agent loop, decision-making logic and final forecast generation.
 * `llm.py` — Handles communication with the Gemini language model and sends prompts to the LLM.
 * `tools.py` — Contains the external tool used by the agent, Tavily, which performs web searches to gather relevant information.
 

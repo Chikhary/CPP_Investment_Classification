@@ -11,8 +11,8 @@ The system follows this process:
 1. A forecasting question is provided to the agent.
 2. Gemini receives the question and the history of previous observations.
 3. The agent chooses between two actions:
-   - `search`: generate a query and retrieve recent information using Tavily.
-   - `forecast`: return the final probabilistic prediction.
+   - `search`: generates a query and retrieve recent information using Tavily.
+   - `forecast`: returns the final probabilistic prediction.
 4. Successful search results are added to the history and reused in the next reasoning step.
 5. The number of successful searches is limited by `MAX_SEARCHES`.
 6. Once the search limit is reached, the agent must produce a forecast.
