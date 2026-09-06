@@ -1,3 +1,4 @@
+### README
 The goal of this project is to build an LLM-based forecasting agent capable of estimating the probability of future events. The agent gathers relevant information from web sources, analyzes the available information, and produces a final probabilistic forecast.
 
 Here is the backbone of the project:
@@ -40,3 +41,6 @@ To run the project, execute:
 ```bash
 python src/main.py
 ```
+## AI Usage
+
+AI tools were used during the development of this project to assist with code generation, debugging, code review, and documentation. All generated suggestions were reviewed and adapted before being included in the final implementation.
