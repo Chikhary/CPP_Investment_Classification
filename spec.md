@@ -1,4 +1,4 @@
-# spec.md
+# Spec
 
 ## System Objective
 
