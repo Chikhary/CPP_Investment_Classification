@@ -21,7 +21,7 @@ When more information is needed, the agent returns:
   "action": "search",
   "query": "your search query"
 }
-
+```
 ### Forecast
 
 When enough information has been gathered, the agent returns:
@@ -31,3 +31,4 @@ When enough information has been gathered, the agent returns:
   "action": "forecast",
   "forecast": "your final probabilistic forecast"
 }
+```
