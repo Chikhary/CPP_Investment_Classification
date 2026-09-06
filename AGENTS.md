@@ -21,10 +21,12 @@ When more information is needed, the agent returns:
   "action": "search",
   "query": "your search query"
 }
-Here
 
 ### Forecast
 
+When enough information has been gathered, the agent returns:
+
+```json
 {
   "action": "forecast",
   "forecast": "your final probabilistic forecast"
