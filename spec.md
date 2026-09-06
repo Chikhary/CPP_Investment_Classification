@@ -34,7 +34,7 @@ For each run, the system saves:
 Both files are stored in the `runs/` directory.
 ## Models and External Services
 
-- Gemini model: specify the exact model used in `llm.py`.
+- Gemini model: The exact model used in `llm.py`.
 - Tavily API for web search.
 
 ## Failure Handling
